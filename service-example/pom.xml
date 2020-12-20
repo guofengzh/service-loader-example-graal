@@ -47,7 +47,7 @@
             <artifactId>tomcat-embed-programmatic</artifactId>
             <version>${tomcat.version}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -141,7 +141,6 @@
     <!--
       Usage:
            mvn -DskipTests -Pgraal clean package
-           mvn -DskipTests -Dspring.native.verbose=true -Dspring.native.mode=reflection -Pgraal clean package
      -->
     <profiles>
         <profile>
