@@ -23,7 +23,7 @@
         <start-class>sukumaar.SpringBootLoaderApplication</start-class>
 
         <graalvm.version>20.3.0</graalvm.version>
-        <spring-graalvm-native.version>0.8.3</spring-graalvm-native.version>
+        <spring-graalvm-native.version>0.8.5</spring-graalvm-native.version>
     </properties>
 
     <dependencies>
@@ -47,7 +47,7 @@
             <artifactId>tomcat-embed-programmatic</artifactId>
             <version>${tomcat.version}</version>
         </dependency>
-
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
